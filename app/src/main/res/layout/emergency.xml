@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/wave3"
+    android:backgroundTint="#E91E63"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/Available_services"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#191010"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:id="@+id/Maintenance_Type"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/emergency_maintenance"
+            android:textColor="@color/white"
+
+            android:textSize="25sp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-220dp"
+
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/Maintenance_Type"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+            />
+        <TextView
+            android:id="@+id/beneficiary"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-160dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/num_maintenance"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/num_maintenance"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-100dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/The_Cost"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/num_of_room"
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="80dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/maintenance_history"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/maintenance_history"
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-40dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/Worthy"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/worthy"
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/un_worthy"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/un_worthy"
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

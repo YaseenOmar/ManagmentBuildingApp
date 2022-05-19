@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147198752691",
+    "project_id": "managebuildingdesign",
+    "storage_bucket": "managebuildingdesign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147198752691:android:096f7aa4df639a34fe7dc6",
+        "android_client_info": {
+          "package_name": "com.example.managebuildingdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147198752691-g7knm7s44nrshvoag56lsneuc24hkkvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgukBxzkCCHhdqgK05ZCvtTAQM6LQbj88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147198752691-g7knm7s44nrshvoag56lsneuc24hkkvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

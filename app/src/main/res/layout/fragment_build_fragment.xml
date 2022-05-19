@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Fragment.Build_Fragment"
+    android:orientation="vertical"
+    android:background="@drawable/wave3"
+    >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:background="@drawable/backshape2"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/name_building"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+
+    <TextView
+        android:id="@+id/name_building"
+
+        android:gravity="center"
+        android:layout_width="0px"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:text="@string/name_building"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+
+
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/num_of_floors"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+            />
+        <TextView
+            android:id="@+id/num_of_floors"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="@string/num_of_apartments"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/num_of_apartments"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/address"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+            />
+        <TextView
+            android:id="@+id/address"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/address"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/num_of_entered"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/num_of_entered"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/num_of_sublimated"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/name_of_building"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="20dp"
+    >
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/The_Cleaner"
+        android:backgroundTint="#FF9800"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:layout_marginStart="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/The_Cleaner"
+        android:backgroundTint="#FF9800"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>
+
+</LinearLayout>

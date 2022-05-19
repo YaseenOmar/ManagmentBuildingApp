@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave3"
+
+
+    >
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="-250dp"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"
+            android:text="@string/electrical_generator"
+            android:fontFamily="@font/montserrat_bold"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-90dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/beneficiary"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+            />
+        <TextView
+            android:id="@+id/beneficiary"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="-10dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/non_beneficiary"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/partments"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="70dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/Tax"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/num_of_room"
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+
+
+</FrameLayout>

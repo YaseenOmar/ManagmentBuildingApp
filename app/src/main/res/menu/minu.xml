@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/nav_personalInforamtion"
+    android:title="@string/informationAdmin"
+    android:icon="@drawable/person1_logo"
+    
+/>
+    <item
+        android:id="@+id/nav_buildInforamtion"
+        android:title="@string/information_building"
+        android:icon="@drawable/home_logo"
+/>
+    <item
+        android:id="@+id/nav_service"
+        android:title="@string/service"
+        android:icon="@drawable/services_logo"
+       />
+    <item
+        android:id="@+id/nav_partInforamtion"
+        android:title="@string/partInformation"
+        android:icon="@drawable/partmemnts_logo"
+        />
+
+</menu>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Fragment.Admin_Fragment"
+    android:orientation="vertical"
+    android:background="@drawable/wave3"
+    >
+
+    <ImageView
+        android:id="@+id/imge_owner"
+        android:layout_marginTop="15dp"
+        android:layout_width="130dp"
+        android:layout_gravity="center"
+        android:layout_height="120dp"
+        android:background="@drawable/user_logo"
+        />
+
+    <TextView
+        android:id="@+id/Apartment_owner"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Apartment_owner"
+        android:fontFamily="@font/montserrat_bold"
+
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/phone_Number"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        />
+    <TextView
+        android:id="@+id/Apartment_area"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Apartment_area"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:fontFamily="@font/montserrat_bold"
+
+        />
+
+    <TextView
+        android:id="@+id/contract_system"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contract_system"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:fontFamily="@font/montserrat_bold"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/floor"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+            />
+        <TextView
+            android:id="@+id/floor"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/Partments"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/partments"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#E8BDBD"
+        android:layout_marginTop="20dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="@string/num_of_rooms"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"
+
+            />
+        <TextView
+            android:id="@+id/num_of_room"
+
+            android:gravity="center"
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="32sp"
+            android:textColor="@color/bottom_nav_color"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/services"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/service"
+        android:backgroundTint="#FF9800"
+        android:textSize="22sp"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wave3"
+    android:backgroundTint="#FBA58B"
+
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/Available_services"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backshape2"
+        android:backgroundTint="#191010"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        >
+        <TextView
+            android:id="@+id/Maintenance_Type"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/Maintenance_Type"
+            android:textColor="@color/white"
+
+            android:textSize="32sp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Periodic_maintenance"
+        android:layout_width="390dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+
+        android:layout_height="90dp"
+        android:text="@string/Periodic_maintenance"
+        android:backgroundTint="#FF0000"
+        android:textSize="25sp"
+        android:fontFamily="@font/montserrat_bold"
+
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/emergency_maintenance"
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/emergency_maintenance"
+        android:textAllCaps="false"
+
+        android:textSize="23sp" />
+
+
+</FrameLayout>
